@@ -19,7 +19,7 @@ Configuring the clock happens in the `funconfig.h` file:
 #define CH32V003        1
 ```
 In the above example the MCU is clocked from the onboard 24MHz crystal multiplied x2 by the PLL resulting in a 48MHz system clock.  
-Use `make flash monitor` to compile/upload the firmware and open the debug printf terminal. It should print out all the details about the current clock configuration:  
+Use `make flash monitor` to compile/upload the firmware and open the debug printf terminal. It should print out all the details about the positional clock configuration:  
 ```
 System Clock Configuration Example
 ====================================

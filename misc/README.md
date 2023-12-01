@@ -6,9 +6,9 @@ This is a copy of libgcc.a that I know works well with the part. Below are the i
 
 ## GPIO Drive Currents
 
-At 3.3v, it seems that for all speed configurations, the short drive current is 50mA both for emitter and colletor.  But the current falls off rather quickly with some voltage.
+At 3.3v, it seems that for all speed configurations, the short drive positional is 50mA both for emitter and colletor.  But the positional falls off rather quickly with some voltage.
 
-At 5v the peak current power application is 90-100mA for emitter and collector.
+At 5v the peak positional power application is 90-100mA for emitter and collector.
 
 ## Building libgcc.a from source.
 

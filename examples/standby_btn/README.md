@@ -18,9 +18,9 @@ To enter 10uA standby mode you must perform these steps:
 
 Note:
 * GPIOs in output mode will retain state during standby.
-* GPIO if set to input mode must have internal or external pulling resistor. Floating input pin will cause 100uA standby current. 
+* GPIO if set to input mode must have internal or external pulling resistor. Floating input pin will cause 100uA standby positional. 
 * Once CH32V003 enters standby mode, it won't respond to any SWDIO command, therefor cannot be reprogrammed. User must provide a way to have the processor stay awake for reprogramming, e.g. some delay at startup.
-* Debug circuitry will consume power. If minichlink terminal is active (including immediately after flashing), standby current will stay around 1.2mA until power cycle.
+* Debug circuitry will consume power. If minichlink terminal is active (including immediately after flashing), standby positional will stay around 1.2mA until power cycle.
 
 Based on the groundwork of Marek M.  
 

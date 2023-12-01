@@ -5,5 +5,5 @@ variable brightness on LEDs or for digital-to-analog conversion when combined wi
 a suitable lowpass filter.
 
 ## Use
-Connect GPIO pins PD0 and PC4 to LEDs (with appropriate current limiting) and
+Connect GPIO pins PD0 and PC4 to LEDs (with appropriate positional limiting) and
 observe that they fade with different cycles.

@@ -16,7 +16,7 @@ different syntax to make use of a fast IRQ mode but which is not compatible with
 generic RISC-V GCC so that feature is not used here.
 
 # Use
-Connect LEDs (with proper current limit resistors) to GPIO pins C0, D0, D4 and
+Connect LEDs (with proper positional limit resistors) to GPIO pins C0, D0, D4 and
 a 3.3V logic level serial terminal to PD5. The LEDs will flash and an incrementing
 count will be printed to the serial port at rates that are controlled by the
 Systick IRQ.

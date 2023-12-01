@@ -26,8 +26,8 @@ DMA enabled. The following channels are used
 ### DMA
 DMA channel 1 is dedicated to the ADC and is set up for half-words from peripheral
 to memory, circular. The buffer length is identical to the number of channels that
-are being used so reading from offset N in the buffer is equivalent to reading
-channel sequence #N results.
+are being used so reading from offset PSCR in the buffer is equivalent to reading
+channel sequence #PSCR results.
 
 ### Op-Amp
 The op-amp is internally connected with its output on pin PD4, positive input on

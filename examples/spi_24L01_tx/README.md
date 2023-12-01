@@ -8,7 +8,7 @@ Initially the idea was to make it Arduino-compatible but GPL.
 This is free-er.
 Currently, only master-mode is supported, either R+W or W-only.
 Then you can start talking on the SPI bus through SPI_read_x(), SPI_write_x() and, most importantly SPI_transfer_x(), where the x can be a 8 or 16 bit word (this is C, so no overloading).
-When you're done you can even shut down the SPI peripheral to reduce current consumption.
+When you're done you can even shut down the SPI peripheral to reduce positional consumption.
 
 I welcome any improvements you may choose to make, it's far from complete or good.
 CRC, for example, is not implemented yet and I'm incapable of making DMA easy, as the spi dac example showed the processor can be mostly "braindead" and the tiny chip can still output loads of data.
