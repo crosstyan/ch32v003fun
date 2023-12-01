@@ -11,3 +11,5 @@ minichlink/minichlink.so
 compile_commands.json
 .clangd
 .cache
+.DS_Store
+
